@@ -1,0 +1,11 @@
+:root {
+    --page-color: #FFF2FA;
+    --header-color: #fff;
+    --polygon-color: #fff;
+    --button-color: #E03AA3;
+    --button-color-active: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #E03AA3;;
+    --button-color-hover: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #E03AA3;
+    --button-color-disabled: linear-gradient(0deg, rgba(174, 174, 174, 0.57), rgba(174, 174, 174, 0.57)), #E03AA3;
+    --button-border: 2px solid #E03AA3;
+    --button-color-text: #fff;
+}

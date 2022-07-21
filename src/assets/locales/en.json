@@ -1,0 +1,23 @@
+{
+    "MainCrypto": "Buy PKOIN with Credit or Debit Card",
+    "MainTroubles": "In case you face any troubles please send a message to our",
+    "MainSupport": "live support",
+    "MainSupportOne": "* The rate shown is just an approximation and it is slightly less than what is actually sent.",
+    "MainSupportTwo": "Therefore, most likely the amount received will be higher than what is disclosed in this field",
+    "MainSupportTree": "** Please note we do not allow purchases from USA and other restricted countries",
+    "InfoTextOne": "The first transaction should not exceed $500",
+    "InfoTextTwo": "You must pass verification on your first purchase, including Selfie, picture of document and proof of address",
+    "InfoTextTree": "Make sure your bank card support 3D-secure",
+    "Buy": "Buy",
+    "BuyFrom": "From",
+    "BuyTo": "To",
+    "BuyAmount": "Amount",
+    "BuyYouGet": "You Get",
+    "BuyAddress": "address",
+    "BuyEnterAddress": "Please Enter Your PKOIN wallet address.",
+    "BuyEnterEmail": "Please Enter Your Email.",
+    "BuyIncorrectEmail": "Incorrect Email.",
+    "BuyAmountMore": "The amount must be more than 50 $",
+    "BuyYouEmail": "Your real email address.",
+    "BuyYouAddress": "Your PKOIN wallet address"
+}

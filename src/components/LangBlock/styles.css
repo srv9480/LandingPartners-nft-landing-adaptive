@@ -1,0 +1,93 @@
+.header__WrapperLang{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
+    border-radius: 11px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    
+}
+@media (max-width: 1330px) {
+    .header__WrapperLang{
+        top: 3%
+    } 
+}
+
+@media (max-width: 769px) {
+    .header__WrapperLang{
+        position: relative;
+    } 
+}
+
+.header__Language{
+    display: flex;
+    padding: 7px;
+    min-width: 70px;
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+}
+.header__Language > p {
+    margin: 0 3px 0 8px;
+}
+.header__Language > img {
+    width: 24px;
+    height: 24px;
+}
+.header__Languages{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    max-width: 230px;
+    padding: 8px 13px 8px 5px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 11px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    position: absolute;
+    right: 0;
+}
+.header__Languages > span{
+    display: flex;
+    padding: 7px;
+    min-width: 70px;
+    cursor: pointer;
+    align-items: center;
+    color: black;
+}
+.header__Languages > span:first-child{
+    text-decoration-line: underline;
+}
+.header__Languages > span:first-child::after{
+    content: url(../../assets/images/Polygon.svg);
+    position: absolute;
+    right: 0;
+    padding-bottom: 5px;
+    padding-right: 8px;
+}
+.header__Languages > span > img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+@media (max-width: 768px) {
+    .header__Languages{
+        justify-content: center;
+        max-width: 100px;
+        position: absolute;
+        right: 0;
+        z-index: 99999;
+    }
+    /* .header__WrapperLang{
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    } */
+}
+
+
+    

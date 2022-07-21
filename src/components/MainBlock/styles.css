@@ -1,0 +1,250 @@
+/* img, .mainBlock {
+    width: 100%;
+    max-width: 900px;
+} */
+.infoBlocks{
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+    }
+
+
+.infoBlock{
+    margin-right: 30px;
+    position: relative;
+    display: block;
+}
+
+.imgBlock{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    transition: 200ms;
+}
+
+.imgBlock:hover img{
+    filter: brightness(70%);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.imgBlock:hover::before{
+    content: "Buy now";
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #fff;
+    position: absolute;
+    z-index: 999999;
+    cursor: pointer;
+    
+}
+
+.textBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.mainTitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+.buyButton{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.bottomRow{
+    position: absolute;
+    bottom: -8px;
+}
+
+.modal{
+    position: absolute;
+    width: 450px;
+    left: calc((100vw - 480px) / 2);
+    top: calc((100vh - 520px) / 2);
+    outline: none;
+    display: flex;
+    background: rgb(233 233 233 / 90%);
+    padding: 1rem;
+}
+
+
+.rightBlock{   
+
+    margin: 0 auto;
+}
+
+.closeBlock{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.closeBlock img{
+    cursor: pointer;
+}
+
+.modalTitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.whoBlock{
+    display: flex;
+    align-items: center;
+}
+
+.whoBlock div{
+    min-height: 100%;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.whoBlock:first-child{
+    margin-right: 0px;
+}
+
+.whoBlock div p:first-child{
+    margin: 0;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+}
+
+.whoBlock div p:nth-child(2){
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+input{
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.formBlock{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.formBlock input{
+    width: 320px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 24px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.formBlock input::placeholder{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.priceBlock{
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.priceBlock p, h2{
+    margin: 0;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.priceBlock p, img{
+    margin-right: 5px;
+}
+
+.priceBlock h2{
+    margin-right: 20px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.buttonBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.submitButton{
+    background: #FFFF00;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.submitButton:disabled{
+    background: rgb(249 178 145);
+    border-radius: 30px;
+    cursor: default;
+}
+
+.submitButton p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.error{
+    color: red;
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+}
