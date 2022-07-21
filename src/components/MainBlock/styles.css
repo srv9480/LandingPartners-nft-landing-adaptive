@@ -12,9 +12,18 @@
 
 
 .infoBlock{
-    margin-right: 30px;
+   /*  margin-right: 30px; */
     position: relative;
     display: block;
+    /* margin: 0 auto;
+    padding-right: 30px; */
+}
+
+
+    @media (min-width: 532px) {
+        .infoBlock{
+            margin-right: 30px;
+        }
 }
 
 .imgBlock{
